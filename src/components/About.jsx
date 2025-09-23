@@ -1,5 +1,6 @@
 
 import Wrapper from "./Wrapper.jsx";
+import Certificates from "./Certificate.jsx";
 
 
 const About = ()=>{
@@ -19,6 +20,7 @@ const About = ()=>{
                 Open to internships, collaborations, and junior developer roles to grow and contribute.
               
             </p>
+            <Certificates/>
 
         </Wrapper>
       

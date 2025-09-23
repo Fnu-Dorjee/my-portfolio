@@ -65,6 +65,22 @@ export const PROTFOLIO_IMG  = [
 
 ]
 
+//CERTIFICATES
+
+export const certificates = [
+    { 
+        id: 1, 
+        name: "Certificate 1", 
+        link: "/certificate1.pdf"
+     },
+    { 
+        id: 2, 
+        name: "Certificate 2", 
+        link: "/certificate2.pdf" 
+    }
+  ];
+  
+
 //EXPERIENCE AND TECH LOGOS
 
 export const LOGOS_NAME = [
