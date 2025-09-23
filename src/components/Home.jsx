@@ -16,7 +16,7 @@ const Home = () => {
                      React.js Web Developer since 2023 | Built 10+ websites & real-time chat apps | 117+ hrs Udemy training |
                       CS student at LaGuardia CC <span>(LaGCC)</span>. 
                 </p>
-                <div className="py-4">
+                <div className="py-4 max-sm:z-10">
                     <Link to="portfolio" smooth duration={500}>
                  
                     <button className="btn btn-primary group">
@@ -26,7 +26,7 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div className="max-[480px]:mt-[-100px] shadow-md shadow-gray-400  rounded-lg max-sm:mt-[-200px] max-sm:mb-20">
+            <div className="max-[480px]:mt-[-100px] shadow-md shadow-gray-400  rounded-lg max-sm:mt-[-150px] max-sm:mb-10">
                 <img 
                 src={myImg} alt="my-profile" 
                 className="rounded-2xl mx-auto w-2/3 md:w-full"/>
