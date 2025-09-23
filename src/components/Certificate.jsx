@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 import { certificates } from "../utils/utils.js";
-
+import { MailOpen } from "lucide-react";
 
 const Certificates = () => {
   const [show, setShow] = useState(false); // show/hide modal
@@ -41,9 +41,9 @@ const Certificates = () => {
               href={certificates[current].link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-400 hover:underline mb-4 block"
+              className="text-blue-400 hover:underline mb-4 flex items-center justify-center gap-2"
             >
-              Open Certificate
+              Open Certificate <MailOpen className="size-5 text-gray-400"/>
             </a>
 
             <div className="flex justify-between mt-4">

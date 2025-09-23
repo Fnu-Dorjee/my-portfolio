@@ -71,12 +71,17 @@ export const certificates = [
     { 
         id: 1, 
         name: "Certificate 1", 
-        link: "/certificate1.pdf"
+        link: "/certificate2.pdf"
      },
     { 
         id: 2, 
         name: "Certificate 2", 
-        link: "/certificate2.pdf" 
+        link: "/certificate3.pdf" 
+    },
+    { 
+        id: 3, 
+        name: "Certificate 3", 
+        link: "/certificate4.pdf" 
     }
   ];
   
