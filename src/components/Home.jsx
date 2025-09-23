@@ -11,10 +11,10 @@ const Home = () => {
         px-4 md:flex-row">
             <div className="flex flex-col justify-center h-full">
                 <h2 className="text-4xl sm:text-7xl font-bold text-white">I'm a Full Stack Developer</h2>
+
                 <p className="text-gray-400 py-4 max-w-md">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Sapiente, incidunt dolor asperiores quo minima 
-                    libero animi iste facilis officia officiis dolore 
+                     React.js Web Developer since 2023 | Built 10+ websites & real-time chat apps | 117+ hrs Udemy training |
+                      CS student at LaGuardia CC <span>(LaGCC)</span>. 
                 </p>
                 <div className="py-4">
                     <Link to="portfolio" smooth duration={500}>
@@ -26,7 +26,7 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div className="max-[480px]:mt-[-100px] shadow-md shadow-gray-400  rounded-lg">
+            <div className="max-[480px]:mt-[-100px] shadow-md shadow-gray-400  rounded-lg max-sm:mt-[-200px] max-sm:mb-20">
                 <img 
                 src={myImg} alt="my-profile" 
                 className="rounded-2xl mx-auto w-2/3 md:w-full"/>

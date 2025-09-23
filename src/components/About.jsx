@@ -9,21 +9,15 @@ const About = ()=>{
             title="About" 
             className="from-gray-800 to-black">
 
-            <p className="text-xl">
-                Hi, I'm Dorjee — a passionate Full-Stack Web Developer and a 2nd-year Computer Science student at LaGuardia Community College <span>(Lagcc)</span>.  
-                 I discovered my love for coding through Udemy, where I completed 117+ hours of web development courses, learning how to turn ideas into functional, beautiful web applications.
+            <p className="text-xl max-sm:text-md">
+                Hi, I'm Dorjee — a Full-Stack MERN Developer and 2nd-year Computer Science student at LaGuardia Community College.
+                I've completed 117+ hours of Udemy training and built 10+ projects, including real-time chat and video-call apps with Socket.IO.
+
             </p>
-            <p className="text-xl">
+            <p className="text-xl max-sm:text-md">
                 <br/>
-                I specialize in React.js, Node.js, Express.js, TailwindCSS, and building full-stack applications.
-                Some of my favorite projects include a real-time chat application and a real-time video-calling platform built with Socket.IO, both of which strengthened my skills in creating interactive, real-world apps.
+                Open to internships, collaborations, and junior developer roles to grow and contribute.
               
-            </p>
-            <br />
-            <p className="text-xl">
-                I'm eager to gain real-world, market experience and apply what I've learned in professional settings.
-                I'm open to internships, collaboration opportunities, or junior developer roles where I can contribute, grow, and learn from experienced teams.
-                               
             </p>
 
         </Wrapper>
