@@ -20,11 +20,11 @@ const Certificates = () => {
   };
 
   return (
-    <section >
+    <section className="text-center">
 
       <button
         onClick={() => setShow(true)}
-        className="btn btn-primary p-2 mt-4"
+        className="btn btn-primary p-2 mt-2"
       >
         View My Certificates
       </button>
