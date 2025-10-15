@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, } from 'react-icons/fa';
 import { Mail } from 'lucide-react';
 //import { BiLogoGmail } from 'react-icons/bi';
 import { BsFillPersonVcardFill } from 'react-icons/bs';
-import resume from '../../public/my-Resume.pdf';
+import resume from '../../public/RESUME.mY.pdf';
 
 export const LINKS = [
     { id:1, link: "home"},
