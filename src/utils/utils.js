@@ -1,8 +1,7 @@
 import { FaGithub, FaLinkedin, } from 'react-icons/fa';
 import { Mail } from 'lucide-react';
-//import { BiLogoGmail } from 'react-icons/bi';
 import { BsFillPersonVcardFill } from 'react-icons/bs';
-import resume from '../../public/RESUME.mY.pdf';
+import my_resume from '../../public/resume.pdf'
 
 export const LINKS = [
     { id:1, link: "home"},
@@ -37,7 +36,7 @@ export const SOCIAL_LINKS = [
         id: 4,
         icon: BsFillPersonVcardFill,
         name: "Resume",
-        link: resume,
+        link: my_resume,
         download: true
     }
 ]
